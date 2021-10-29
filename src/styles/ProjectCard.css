@@ -1,5 +1,9 @@
 .project-card {
     background-color: #bc6c25;
     color: #fefefe;
-    height: 10vh;
+    text-align: center;
+}
+
+.project-card img {
+    width: 90%;
 }
