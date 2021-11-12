@@ -5,8 +5,8 @@ const ProjectCard = (props) => {
 
     return (
         <article className="project-card">
-            <h3>{title}</h3>
             <img src={image} alt={'Screenshot of ' + title} />
+            <h3>{title}</h3>
             <div>{description}</div>
         </article>
     );

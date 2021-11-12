@@ -1,9 +1,11 @@
 .project-card {
-    background-color: #bc6c25;
+    background-color: #56a3a6;
     color: #fefefe;
     text-align: center;
+    border-radius: 20px;
 }
 
 .project-card img {
-    width: 90%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
