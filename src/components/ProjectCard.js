@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
             <div className="project-info">
                 <h3>{title}</h3>
                 <div>{description}</div>
-                <ul>
+                <ul className="learning-goals">
                     {learningGoals.map((goal) => (
                         <li key={goal}>{goal}</li>
                     ))}

@@ -21,3 +21,17 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+.learning-goals {
+    list-style: none;
+    background-color: #336364;
+    color: #e2e2e2;
+    text-align: right;
+    padding: 15px 10px 5px 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.learning-goals li {
+    margin-bottom: 10px;
+}
