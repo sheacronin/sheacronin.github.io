@@ -1,3 +1,5 @@
+import '../styles/Welcome.css';
+
 const Welcome = () => {
     return (
         <section id="welcome">

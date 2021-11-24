@@ -1,11 +1,23 @@
 .project-card {
-    background-color: #56a3a6;
+    background-color: #487e80;
     color: #fefefe;
     text-align: center;
     border-radius: 20px;
+    display: flex;
 }
 
-.project-card img {
-    width: 100%;
-    border-radius: 20px 20px 0 0;
+.screenshot {
+    width: 50%;
+    align-self: start;
+}
+
+.project-info {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+
+.project-info h3 {
+    text-align: center;
+    margin-bottom: 10px;
 }

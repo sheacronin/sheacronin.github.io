@@ -1,3 +1,7 @@
+#skills {
+    background: linear-gradient(#d4eac8, #c0d8e0);
+}
+
 #skills ul {
     list-style: none;
     display: flex;
@@ -9,8 +13,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.skill-icon {
-    width: 50px;
 }

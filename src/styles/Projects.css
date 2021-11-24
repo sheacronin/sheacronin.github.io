@@ -1,9 +1,9 @@
 #projects {
-    background-color: #c0d8e0;
+    background: linear-gradient(#c0d8e0, #d4eac8);
     padding: 20px;
-    height: 40vh;
+    /* height: 40vh; */
     display: flex;
     flex-direction: column;
     gap: 20px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
