@@ -23,6 +23,19 @@ const mobileImages = importAll(mobileImagesContext);
 
 const PROJECTS = [
     {
+        title: "Where's Meryl?",
+        description:
+            "A Where's Waldo-inspired game that times the user as they search for characters from the movie Mamma Mia.",
+        tech: ['React', 'Firebase', 'JavaScript'],
+        learningGoals: ['Integrating with a Backend', 'Managing Stored Data'],
+        images: {
+            desktop: desktopImages['wheres-meryl'],
+            mobile: mobileImages['wheres-meryl-m'],
+        },
+        githubLink: 'https://github.com/sheacronin/wheres-meryl',
+        liveLink: 'https://wheres-meryl.web.app/',
+    },
+    {
         title: 'BattleBug',
         description:
             'An insect-themed Battleship game that can be played against a computer or another human.',
@@ -103,23 +116,23 @@ const PROJECTS = [
         githubLink: 'https://github.com/sheacronin/cv',
         liveLink: 'https://sheacronin.github.io/cv/',
     },
-    {
-        title: 'Todo List',
-        description:
-            'A Todo List application in which the user can create custom projects and tasks within those projects, including information such as due date and priority.',
-        tech: ['JavaScript'],
-        learningGoals: [
-            'Object-Oriented Programming',
-            'Local Storage',
-            'Mobile-First Design',
-        ],
-        images: {
-            desktop: desktopImages['todo'],
-            mobile: mobileImages['todo-m'],
-        },
-        githubLink: 'https://github.com/sheacronin/todo',
-        liveLink: 'https://sheacronin.github.io/todo/',
-    },
+    // {
+    //     title: 'Todo List',
+    //     description:
+    //         'A Todo List application in which the user can create custom projects and tasks within those projects, including information such as due date and priority.',
+    //     tech: ['JavaScript'],
+    //     learningGoals: [
+    //         'Object-Oriented Programming',
+    //         'Local Storage',
+    //         'Mobile-First Design',
+    //     ],
+    //     images: {
+    //         desktop: desktopImages['todo'],
+    //         mobile: mobileImages['todo-m'],
+    //     },
+    //     githubLink: 'https://github.com/sheacronin/todo',
+    //     liveLink: 'https://sheacronin.github.io/todo/',
+    // },
 ];
 
 export default PROJECTS;
