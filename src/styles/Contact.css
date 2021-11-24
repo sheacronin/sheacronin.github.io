@@ -1,3 +1,17 @@
 #contact {
     background: linear-gradient(#c0d8e0, #d4eac8);
 }
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #487e80;
+}
+
+#contact ul li a:hover {
+    color: #283618;
+    text-decoration: underline;
+}

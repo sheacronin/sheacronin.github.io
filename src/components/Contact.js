@@ -5,8 +5,14 @@ const Contact = () => {
         <section id="contact">
             <h2>Contact</h2>
             <ul>
-                <li>shealcronin@gmail.com</li>
-                <li>github</li>
+                <li>
+                    <a href="mailto:shealcronin@gmail.com">
+                        shealcronin@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/sheacronin">GitHub</a>
+                </li>
             </ul>
         </section>
     );
