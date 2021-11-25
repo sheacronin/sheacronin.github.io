@@ -16,11 +16,11 @@ const ProjectCard = (props) => {
             />
             <div className="project-info">
                 <h3>{title.toLowerCase()}</h3>
-                <div>
-                    <a href={links.github}>GitHub</a>
-                    <a href={links.live}>Live Site</a>
+                <div className="project-links">
+                    <a href={links.live}>live site</a>
+                    <a href={links.github}>github</a>
                 </div>
-                <div>{description}</div>
+                <div className="project-desc">{description}</div>
                 <div className="learning-goals-and-tech">
                     <h4>learning goals & tech</h4>
                     <ul className="learning-goals">
@@ -28,9 +28,11 @@ const ProjectCard = (props) => {
                             <li key={goal}>{goal}</li>
                         ))}
                     </ul>
-                    <ul>
+                    <ul className="project-tech">
                         {tech.map((tech) => (
-                            <TechIcon key={tech} tech={tech} />
+                            <li key={tech}>
+                                <TechIcon tech={tech} />
+                            </li>
                         ))}
                     </ul>
                 </div>

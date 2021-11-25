@@ -1,16 +1,14 @@
-import javascriptImg from '../img/icons/javascript.png';
-import reactImg from '../img/icons/react.png';
-import gitImg from '../img/icons/git.png';
-import htmlImg from '../img/icons/html.png';
-import cssImg from '../img/icons/css.png';
 import '../styles/TechIcon.css';
 
 const techIcons = {
-    javascriptImg,
-    reactImg,
-    gitImg,
-    htmlImg,
-    cssImg,
+    javascript:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+    react: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    git: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+    html: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+    css: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+    firebase:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
 };
 
 const TechIcon = (props) => {
@@ -19,7 +17,7 @@ const TechIcon = (props) => {
     return (
         <img
             className="tech-icon"
-            src={techIcons[`${tech.toLowerCase()}Img`]}
+            src={techIcons[tech.toLowerCase()]}
             alt={tech}
         />
     );

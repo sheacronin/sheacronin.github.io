@@ -31,6 +31,21 @@
     font-size: 16px;
 }
 
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.project-links a {
+    color: #911500;
+    font-size: 14px;
+}
+
+.project-desc {
+    padding: 0 10px;
+}
+
 .learning-goals-and-tech {
     background-color: #858f7e;
     color: white;
@@ -56,4 +71,13 @@
 
 .learning-goals li {
     margin-bottom: 8px;
+}
+
+.project-tech {
+    list-style: none;
+    display: flex;
+}
+
+.project-tech li {
+    margin-left: 5px;
 }

@@ -57,7 +57,7 @@ const PROJECTS = [
         },
     },
     {
-        title: 'Poké Mart Shopping Cart',
+        title: 'Shopping Cart',
         description:
             'Uses PokéAPI to display categories of items and items within those categories. The user can add items to their cart and then view those items.',
         tech: ['React', 'JavaScript'],
