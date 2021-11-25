@@ -2,12 +2,16 @@
     list-style: none;
 }
 
+#contact ul li {
+    margin-top: 10px;
+}
+
 #contact ul li a {
     text-decoration: none;
-    color: #487e80;
+    color: #b2bfa8;
 }
 
 #contact ul li a:hover {
-    color: #283618;
+    color: #858f7e;
     text-decoration: underline;
 }
