@@ -41,7 +41,7 @@ const PROJECTS = [
         title: 'BattleBug',
         description:
             'An insect-themed Battleship game that can be played against a computer or another human.',
-        tech: ['JavaScript'],
+        tech: ['JavaScript', 'Jest', 'Webpack'],
         learningGoals: [
             'Test Driven Development',
             'Object-Oriented Programming',
@@ -94,7 +94,7 @@ const PROJECTS = [
         title: 'Weather App',
         description:
             'Displays the weather of an inputted location using the OpenWeatherMap API.',
-        tech: ['JavaScript'],
+        tech: ['JavaScript', 'Webpack'],
         learningGoals: [
             'Asynchronous Programming',
             'Using APIs',

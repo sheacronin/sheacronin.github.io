@@ -9,6 +9,9 @@ const techIcons = {
     css: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
     firebase:
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+    jest: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+    webpack:
+        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg',
 };
 
 const TechIcon = (props) => {
