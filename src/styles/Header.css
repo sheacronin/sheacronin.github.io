@@ -1,5 +1,5 @@
 header {
-    background-color: #283618;
+    background-color: #41473c;
     height: 10vh;
     display: flex;
     justify-content: start;
@@ -9,7 +9,7 @@ header {
 }
 
 header h1 {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: left;
     margin-left: 20px;
 }

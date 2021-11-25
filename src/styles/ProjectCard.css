@@ -1,6 +1,6 @@
 .project-card {
-    background-color: #487e80;
-    color: #fefefe;
+    background-color: #b2bfa8;
+    color: black;
     text-align: center;
     display: flex;
     /* width of card is 100vw - 40px (padding) */
@@ -21,25 +21,39 @@
 .project-info {
     font-size: 14px;
     text-align: left;
-    padding: 10px;
+    padding: 10px 0;
     overflow-y: scroll;
+    position: relative;
 }
 
 .project-info h3 {
     text-align: center;
+    font-size: 16px;
+}
+
+.learning-goals-and-tech {
+    background-color: #858f7e;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.learning-goals-and-tech h4 {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: black;
+    font-size: 14px;
 }
 
 .learning-goals {
     list-style: none;
-    background-color: #336364;
-    color: #e2e2e2;
     text-align: right;
-    padding: 15px 10px 5px 10px;
-    border-radius: 10px;
-    margin: 20px auto;
+    padding: 10px 10px 0 10px;
     font-size: 11px;
 }
 
 .learning-goals li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
