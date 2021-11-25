@@ -1,6 +1,8 @@
 #about {
     padding: 20px 30px;
     overflow: auto;
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 #about h2 {
