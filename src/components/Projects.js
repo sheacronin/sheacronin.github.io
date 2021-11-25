@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 const Projects = () => {
     return (
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>projects</h2>
             {PROJECTS.map((project) => (
                 <ProjectCard key={project.title} project={project} />
             ))}

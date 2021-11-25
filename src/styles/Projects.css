@@ -1,6 +1,6 @@
 #projects {
     background: linear-gradient(#c0d8e0, #d4eac8);
-    padding: 20px;
+    padding: 20px 10px;
     /* height: 40vh; */
     display: flex;
     flex-direction: column;

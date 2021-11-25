@@ -2,8 +2,15 @@
     background-color: #487e80;
     color: #fefefe;
     text-align: center;
-    border-radius: 20px;
     display: flex;
+    /* width of card is 100vw - 40px (padding) */
+    /* width of screenshot is half that */
+    /* height of screenshot is width * 1.74 */
+    max-height: calc(((100vw - 20px) / 2) * 1.74);
+}
+
+.project-card div {
+    font-size: 12px;
 }
 
 .screenshot {
@@ -15,11 +22,11 @@
     font-size: 14px;
     text-align: left;
     padding: 10px;
+    overflow-y: scroll;
 }
 
 .project-info h3 {
     text-align: center;
-    margin-bottom: 10px;
 }
 
 .learning-goals {
@@ -30,6 +37,7 @@
     padding: 15px 10px 5px 10px;
     border-radius: 10px;
     margin: 20px auto;
+    font-size: 11px;
 }
 
 .learning-goals li {

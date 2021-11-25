@@ -3,7 +3,7 @@ import '../styles/Header.css';
 const Header = () => {
     return (
         <header>
-            <h1>Shea Cronin</h1>
+            <h1>shea cronin</h1>
         </header>
     );
 };

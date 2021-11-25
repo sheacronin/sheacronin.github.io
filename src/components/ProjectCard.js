@@ -2,7 +2,8 @@ import '../styles/ProjectCard.css';
 import TechIcon from './TechIcon';
 
 const ProjectCard = (props) => {
-    const { title, description, images, tech, learningGoals } = props.project;
+    const { title, description, images, tech, learningGoals, links } =
+        props.project;
 
     console.log(images);
 
@@ -15,6 +16,10 @@ const ProjectCard = (props) => {
             />
             <div className="project-info">
                 <h3>{title}</h3>
+                <div>
+                    <a href={links.github}>GitHub</a>
+                    <a href={links.live}>Live Site</a>
+                </div>
                 <div>{description}</div>
                 <ul className="learning-goals">
                     {learningGoals.map((goal) => (

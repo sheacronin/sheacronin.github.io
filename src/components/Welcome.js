@@ -3,7 +3,7 @@ import '../styles/Welcome.css';
 const Welcome = () => {
     return (
         <section id="welcome">
-            <h2>Hello World</h2>
+            <h2>hello world</h2>
             <p>Shea Cronin is a frontend developer.</p>
         </section>
     );

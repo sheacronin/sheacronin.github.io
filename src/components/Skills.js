@@ -6,7 +6,7 @@ const Skills = () => {
 
     return (
         <section id="skills">
-            <h2>Skills</h2>
+            <h2>skills</h2>
             <ul>
                 {skills.map((skill) => (
                     <SkillItem key={skill} skill={skill} />

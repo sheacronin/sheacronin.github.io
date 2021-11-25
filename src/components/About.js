@@ -4,7 +4,7 @@ import selfImg from '../img/self.jpg';
 const About = () => {
     return (
         <section id="about">
-            <h2>About</h2>
+            <h2>about</h2>
             <div id="about-info-container">
                 <img
                     src={selfImg}

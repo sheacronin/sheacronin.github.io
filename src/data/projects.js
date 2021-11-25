@@ -32,8 +32,10 @@ const PROJECTS = [
             desktop: desktopImages['wheres-meryl'],
             mobile: mobileImages['wheres-meryl-m'],
         },
-        githubLink: 'https://github.com/sheacronin/wheres-meryl',
-        liveLink: 'https://wheres-meryl.web.app/',
+        links: {
+            github: 'https://github.com/sheacronin/wheres-meryl',
+            live: 'https://wheres-meryl.web.app/',
+        },
     },
     {
         title: 'BattleBug',
@@ -49,8 +51,10 @@ const PROJECTS = [
             desktop: desktopImages['battlebug'],
             mobile: mobileImages['battlebug-m'],
         },
-        githubLink: 'https://github.com/sheacronin/battleship',
-        liveLink: 'https://sheacronin.github.io/battleship/',
+        links: {
+            github: 'https://github.com/sheacronin/battleship',
+            live: 'https://sheacronin.github.io/battleship/',
+        },
     },
     {
         title: 'Poké Mart Shopping Cart',
@@ -62,8 +66,10 @@ const PROJECTS = [
             desktop: desktopImages['battlebug'],
             mobile: mobileImages['shopping-cart-m'],
         },
-        githubLink: 'https://github.com/sheacronin/shopping-cart',
-        liveLink: 'https://sheacronin.github.io/shopping-cart/',
+        links: {
+            github: 'https://github.com/sheacronin/shopping-cart',
+            live: 'https://sheacronin.github.io/shopping-cart/',
+        },
     },
     {
         title: 'Memory Card Game',
@@ -79,8 +85,10 @@ const PROJECTS = [
             desktop: desktopImages['memory-card'],
             mobile: mobileImages['memory-card-m'],
         },
-        githubLink: 'https://github.com/sheacronin/memory-card',
-        liveLink: 'https://sheacronin.github.io/memory-card/',
+        links: {
+            github: 'https://github.com/sheacronin/memory-card',
+            live: 'https://sheacronin.github.io/memory-card/',
+        },
     },
     {
         title: 'Weather App',
@@ -96,8 +104,10 @@ const PROJECTS = [
             desktop: desktopImages['weather'],
             mobile: mobileImages['weather-m'],
         },
-        githubLink: 'https://github.com/sheacronin/weather',
-        liveLink: 'https://sheacronin.github.io/weather/',
+        links: {
+            github: 'https://github.com/sheacronin/weather',
+            live: 'https://sheacronin.github.io/weather/',
+        },
     },
     {
         title: 'CV Maker',
@@ -113,8 +123,10 @@ const PROJECTS = [
             desktop: desktopImages['cv'],
             mobile: mobileImages['cv-m'],
         },
-        githubLink: 'https://github.com/sheacronin/cv',
-        liveLink: 'https://sheacronin.github.io/cv/',
+        links: {
+            github: 'https://github.com/sheacronin/cv',
+            live: 'https://sheacronin.github.io/cv/',
+        },
     },
     // {
     //     title: 'Todo List',
