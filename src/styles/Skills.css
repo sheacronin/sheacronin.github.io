@@ -1,3 +1,7 @@
+#skills h2 {
+    margin-bottom: 20px;
+}
+
 #skills ul {
     list-style: none;
     display: flex;

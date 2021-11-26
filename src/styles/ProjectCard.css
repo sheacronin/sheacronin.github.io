@@ -36,6 +36,11 @@
     font-size: 14px;
 }
 
+.project-links a:hover {
+    color: #be3e28;
+    font-weight: bold;
+}
+
 .project-desc {
     padding: 0 10px;
     font-size: 12px;
