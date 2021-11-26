@@ -1,1 +1,0 @@
-# Shea Cronin Portfolio
