@@ -27,7 +27,11 @@ const PROJECTS = [
         description:
             "A Where's Waldo-inspired game that times the user as they search for characters from the movie Mamma Mia.",
         tech: ['React', 'Firebase', 'JavaScript'],
-        learningGoals: ['Integrating with a Backend', 'Managing Stored Data'],
+        learningGoals: [
+            'Integrating with a Backend',
+            'Managing Stored Data',
+            'Gathering User Input by Position',
+        ],
         images: {
             desktop: desktopImages['wheres-meryl'],
             mobile: mobileImages['wheres-meryl-m'],
@@ -63,7 +67,7 @@ const PROJECTS = [
         tech: ['React', 'JavaScript'],
         learningGoals: ['Routing', 'Handling State in React', 'Using APIs'],
         images: {
-            desktop: desktopImages['battlebug'],
+            desktop: desktopImages['shopping-cart'],
             mobile: mobileImages['shopping-cart-m'],
         },
         links: {

@@ -3,26 +3,20 @@
     color: black;
     text-align: center;
     display: flex;
-    /* width of card is 100vw - 40px (padding) */
+    /* width of card is 100vw - 20px (padding) */
     /* width of screenshot is half that */
     /* height of screenshot is width * 1.74 */
     max-height: calc(((100vw - 20px) / 2) * 1.74);
 }
 
-.project-card div {
-    font-size: 12px;
-}
-
-.screenshot {
-    width: 50%;
+.screenshot img {
+    width: calc((100vw - 20px) / 2);
     align-self: start;
 }
 
 .project-info {
-    font-size: 14px;
     text-align: left;
     padding: 10px 0;
-    overflow-y: scroll;
     position: relative;
 }
 
@@ -44,6 +38,7 @@
 
 .project-desc {
     padding: 0 10px;
+    font-size: 12px;
 }
 
 .learning-goals-and-tech {
@@ -80,4 +75,36 @@
 
 .project-tech li {
     margin-left: 5px;
+}
+
+@media (min-width: 500px) {
+    .project-card {
+        max-width: 400px;
+        flex-direction: column;
+    }
+
+    .screenshot img {
+        width: 400px;
+    }
+
+    .project-info h3 {
+        font-size: 18px;
+    }
+
+    .project-links a {
+        font-size: 16px;
+    }
+
+    .project-desc {
+        font-size: 14px;
+        height: 200px;
+    }
+
+    .learning-goals-and-tech h4 {
+        font-size: 16px;
+    }
+
+    .learning-goals {
+        font-size: 12px;
+    }
 }

@@ -5,15 +5,12 @@ const ProjectCard = (props) => {
     const { title, description, images, tech, learningGoals, links } =
         props.project;
 
-    console.log(images);
-
     return (
         <article className="project-card">
-            <img
-                className="screenshot"
-                src={images.mobile}
-                alt={'Screenshot of ' + title}
-            />
+            <picture className="screenshot">
+                <source srcSet={images.desktop} media="(min-width: 500px)" />
+                <img src={images.mobile} alt={'Screenshot of ' + title} />
+            </picture>
             <div className="project-info">
                 <h3>{title.toLowerCase()}</h3>
                 <div className="project-links">
